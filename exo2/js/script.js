@@ -13,7 +13,7 @@ nav.innerHTML = `
 let liens = nav.querySelectorAll("a");
 
 // récupère le nom du fichier actuel
-let pageActuelle = location.pathname.split("/").pop(); // ex: "index.html"
+let pageActuelle = location.pathname.split("/").pop();
 
 // compare chaque lien avec la page actuelle
 liens.forEach(function(lien){
